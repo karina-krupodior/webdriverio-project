@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo test" timestamp="2023-10-19T18:46:30" time="7.234" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo test"/>
+      <property name="capabilities" value="chrome.118_0_5993_88.mac"/>
+      <property name="file" value="file:///Users/karina/Desktop/Automation%20QA/webdriverio-project/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.118_0_5993_88.mac.Demo_test" name="My first test" time="7.233">
+      <system-out><![CDATA[
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/url - {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/elements - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element/C45377B501061D63C93A3227289D06A1_element_3/clear - {}
+RESULT: {}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element/C45377B501061D63C93A3227289D06A1_element_3/value - {"text":"Karina"}
+RESULT: {"text":"Karina"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element - {"using":"css selector","value":"[name=\"btnK\"]"}
+RESULT: {"using":"css selector","value":"[name=\"btnK\"]"}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/element/C45377B501061D63C93A3227289D06A1_element_19/click - {}
+RESULT: {}
+COMMAND: POST /session/0799e2ae8bb17ff9198981ec65429194/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0799e2ae8bb17ff9198981ec65429194/actions - {}
+RESULT: {}
+COMMAND: DELETE /session/0799e2ae8bb17ff9198981ec65429194 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
